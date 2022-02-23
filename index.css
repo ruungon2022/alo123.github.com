@@ -1,0 +1,256 @@
+
+body{
+    background-color:wheat;
+}
+.khungto{
+    width: 1000px;
+    margin: 0 auto;
+     text-align: center;
+   
+}
+header{
+    width: 1000px;
+    height: 300px;
+    background-color: aqua;
+    background-image: url(Pictures/banner.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+
+.menu{
+   width:1000px;
+   
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+    position: relative;
+}
+.menu>ul{
+    margin: 10px;
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: red;
+    font-weight: 600;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul ul{
+    position: relative;
+    display: none;
+}
+.menu ul ul a{
+   display: inline-block;
+}
+.menu>ul>li:hover>ul{
+    display: contents;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 0px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: tomato;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.menu ul ul a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+} 
+
+article{
+    width: 765px;
+    height: 1485px;
+    float: right;
+    background-color: white;
+    padding: 2px;
+    border-radius: 0 20px 20px 0px;
+    
+}
+.a2{
+    font-size: 15px;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: navajowhite;
+    text-align: center;
+}
+.san_pham{
+    width: 195px;
+    height: 350px;
+    margin: 30px;
+    position: relative;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 0 2px black;
+    float:left;
+    padding-top: 2px;
+}
+
+.san_pham:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.san_pham>img{
+    width: 230px;
+}
+.sale{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    right: 5px;
+    top: 70px
+}
+.sale>img{
+    width: 60px;
+}
+.buy{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.buy>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: navajowhite;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.san_pham>.buy:hover{
+    width: 150px;
+    height: 40px;
+    background: red;
+}
+
+.soc{
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.soc img{
+    width: 50px;
+}
+.soc>img:hover{
+    box-shadow: 0px 0px 15px white;
+    width: 52px;
+}
+.tensp{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+aside{
+    width: 230px;
+    height: 1490px;
+    background-image: url(Pictures/backgousmall.png);
+    background-size: 100% 100%;
+    border-radius: 40px 0 0 0;
+    box-shadow: 0 0  5px black;
+    
+}
+.vmenu{
+    margin: 0px;
+    list-style: none;
+    text-align: left;
+    padding-top: 20px;
+    width: 190px;
+    height: auto;
+    border-radius: 40px 0 0 0;
+    position: relative;
+
+}
+.vmenu>li>a{
+    display: block; /*chỉnh nguyên khối gạch chấm hàng ngang a */
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-variant: small-caps;
+    padding-left: 45px;
+    line-height: 40px; /*chỉnh độ cao của dòng*/
+    background-image: url(Pictures/chuv1.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center ; /*canh giữa theo chữ*/
+    position: relative;
+    
+    background-position-x: 3px;
+}
+.vmenu>li>a:hover{
+    color: white;
+    border-radius: 20px;
+
+    font-variant: small-caps;
+    background-image: url(Pictures/iiicon.gif);
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+.them>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+li>a:hover{
+    text-shadow: 0px 0px 5px red;
+    font-size: 20px;
+}
+del{
+    color: gray;
+    font-size: 20px;
+}
+li>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    width: 1000px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 0px 0px 15px 15px;
+    padding-top: 20px;
+    background-position: left center;
+}
+.fb-like{
+    float: left;
+  position: relative;
+  left: 280px;
+    
+}
+.video>iframe{
+    width: 766px;
+    height: 250px;
+    position: relative;
+    
+}

@@ -1,0 +1,59 @@
+body{
+   background-color: antiquewhite;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
+   .khung{
+       width: max-content;
+       margin: 0px auto;
+       padding-top: 150px ;
+   }
+   .khung>.quaylai{
+       width: 60px;
+       position: absolute;
+       left: 0px;
+       top: 0px;
+   }
+   .khung>.quaylai>a>img{
+       width: 80px;
+   }
+   .khung>.quaylai>a>img:hover{
+       box-shadow: 5px 5px yellow;
+   }
+   .tdlogin{
+       width: 250px;
+       height: 80px;
+       background-color: aquamarine;
+       background-size: 80% ;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       font-size: 30px;
+       text-align: center;
+       position: relative;
+       font-weight: bold;
+       color: yellow;
+   }
+   .login{
+       width: 250px;
+       height: 300px;
+       box-shadow: 0px 2px 5px 3px black;
+       background-color: bisque;
+       border-radius: 15px;
+   }
+   .phanduoi{
+       padding-left: 30px;
+       padding-top: 5px;
+   }
+   label{
+       font-weight: bold;
+       font-size: large;
+   }
+   .enter>input{
+       width: 100px;
+       background-color: whitesmoke;
+   }
+   .enter>.dk{ 
+       margin: px;
+       float: left;
+   }
+   
